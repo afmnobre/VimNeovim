@@ -97,7 +97,7 @@
 | yy               | Copia a linha inteira.                                                                                                                |
 | Y                | Copia o resto da linha inteira depois do cursor.                                                                                      |
 | p                | Cola após o cursor.                                                                                                                   |
-| P                | Cola depois do cursor.                                                                                                                |
+| P                | Cola antes do cursor.                                                                                                                |
 | u                | desfaz alterações.                                                                                                                    |
 | J                | agrupa uma função mutilinha em uma unica linha.                                                                                       |
 | x                | Deleta 1 caracter.                                                                                                                    |
