@@ -9,56 +9,52 @@
 | Ctrl + o | Cria uma nova linha ABAIXO. |
 | Crtl + O | Cria uma nova Linha ACIMA.  |
 
-
-
-
-
 **Movimentação:**
 
-| Comando      | Descrição                                                                                     |
-|:------------:| --------------------------------------------------------------------------------------------- |
-| i            | Modo de Inserção antes do cursor.                                                             |
-| I            | Modo de Inserção no começo da linha.                                                          |
-| a            | Modo de Inserção depois do cursor.                                                            |
-| A            | Modo de inserção no Final da Linha.                                                           |
-| gg           | Inicio do arquivo.                                                                            |
-| G            | Final do Arquivo.                                                                             |
-| Ctrl + u     | Move pagina acima.                                                                            |
-| Ctrl + d     | Mode pagina abaixo.                                                                           |
-| \<num\> + gg | Navega até a linha especifica no arquivo.                                                     |
-| \<num\> + %  | Navega até a posição em porcentagem do arquivo.                                               |
-| (            | Pula para a frase anterior.                                                                   |
-| )            | Pula para a proxima frase.                                                                    |
-| {            | Pula para o paragrafo anterior.                                                               |
-| }            | Pula para o próximo paragrafo.                                                                |
-| w            | Pula pra proxima palavra.                                                                     |
-| W            | Pula pra proxima palavra em "Programação." (só considera espaços como quebra de plavras).     |
-| b            | Pula pra palavra anterior.                                                                    |
-| B            | Pula pra palabra anterior em "Programação." \| (só considera espaços como quebra de plavras). |
-| e            | Pula pro final da palavra.                                                                    |
-| \$           | Pula pro Final da Linha(sem entrar no modo de edição).                                        |
-| ^            | Pula pro começo da Linha (sem entrar no modo de edição).                                      |
-| 0            | Vai pro inicio da Linha ABSOLUTO, incluindo espaços.                                          |
-| zz           | Centraliza a tela aonde o cursor esta.                                                        |
-| zb           | Movimenta para cima.                                                                          |
-| zt           | Movimenta para baixo.                                                                         |
-| H            | Salta para o inicio da Tela.                                                                  |
-| M            | Salta para o meio da Tela.                                                                    |
-| L            | Salta para o final da Tela.                                                                   |
-| [m           | Salta para o proximo método.                                                                  |
-| ]m           | Salta para o método anterior.                                                                 |
-| \<num\> [m   | Salta para o proximo método de acordo com o numero.                                           |
-| \<num\> ]m   | Salta para o método anterior de acordo com o numero.                                          |
-| [[           | salta para a proxima classe.                                                                  |
-| ]]           | salta para a classe anterior.                                                                 |
-| %            | Vai para o começo ou o fim do entre pares: {} [] ()                                           |
-| gi           | Volta a tela para onde vc estava inserindo.                                                   |
-| Ctrl + o     | Volta para o ultimo salto de linha.                                                           |
-| Ctrl + i     | Avança um salto de linha ja feito.                                                            |
-|              |                                                                                               |
-|              |                                                                                               |
-|              |                                                                                               |
-|              |                                                                                               |
+| Comando      | Descrição                                                                                  |
+|:------------:| ------------------------------------------------------------------------------------------ |
+| i            | Modo de Inserção antes do cursor.                                                          |
+| I            | Modo de Inserção no começo da linha.                                                       |
+| a            | Modo de Inserção depois do cursor.                                                         |
+| A            | Modo de inserção no Final da Linha.                                                        |
+| gg           | Inicio do arquivo.                                                                         |
+| G            | Final do Arquivo.                                                                          |
+| Ctrl + u     | Move pagina acima.                                                                         |
+| Ctrl + d     | Mode pagina abaixo.                                                                        |
+| \<num\> + gg | Navega até a linha especifica no arquivo.                                                  |
+| \<num\> + %  | Navega até a posição em porcentagem do arquivo.                                            |
+| (            | Pula para a frase anterior.                                                                |
+| )            | Pula para a proxima frase.                                                                 |
+| {            | Pula para o paragrafo anterior.                                                            |
+| }            | Pula para o próximo paragrafo.                                                             |
+| w            | Pula pra proxima palavra.                                                                  |
+| W            | Pula pra proxima palavra em "Programação." (só considera espaços como quebra de plavras).  |
+| b            | Pula pra palavra anterior.                                                                 |
+| B            | Pula pra palabra anterior em "Programação." (só considera espaços como quebra de plavras). |
+| e            | Pula pro final da palavra.                                                                 |
+| \$           | Pula pro Final da Linha(sem entrar no modo de edição).                                     |
+| ^            | Pula pro começo da Linha (sem entrar no modo de edição).                                   |
+| 0            | Vai pro inicio da Linha ABSOLUTO, incluindo espaços.                                       |
+| zz           | Centraliza a tela aonde o cursor esta.                                                     |
+| zb           | Movimenta para cima.                                                                       |
+| zt           | Movimenta para baixo.                                                                      |
+| H            | Salta para o inicio da Tela.                                                               |
+| M            | Salta para o meio da Tela.                                                                 |
+| L            | Salta para o final da Tela.                                                                |
+| [m           | Salta para o proximo método.                                                               |
+| ]m           | Salta para o método anterior.                                                              |
+| \<num\> [m   | Salta para o proximo método de acordo com o numero.                                        |
+| \<num\> ]m   | Salta para o método anterior de acordo com o numero.                                       |
+| [[           | salta para a proxima classe.                                                               |
+| ]]           | salta para a classe anterior.                                                              |
+| %            | Vai para o começo ou o fim do entre pares: {} [] ()                                        |
+| gi           | Volta a tela para onde vc estava inserindo.                                                |
+| Ctrl + o     | Volta para o ultimo salto de linha.                                                        |
+| Ctrl + i     | Avança um salto de linha ja feito.                                                         |
+|              |                                                                                            |
+|              |                                                                                            |
+|              |                                                                                            |
+|              |                                                                                            |
 
 **Manipulação:**
 
