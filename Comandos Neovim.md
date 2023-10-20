@@ -56,6 +56,29 @@
 |              |                                                                                            |
 |              |                                                                                            |
 
+**Buffers:**
+
+| Comando                | Descrição                                                                                    |
+| ---------------------- | -------------------------------------------------------------------------------------------- |
+| :ls                    | Lista todos os Buffers abertos                                                               |
+| :b\<num\>              | Vai para o Buffer definido.                                                                  |
+| :bn                    | Vai para o próximo Buffer.                                                                   |
+| :bp                    | Vai para o Buffer anterior.                                                                  |
+| :bufdo                 | Fazer um comando em todos os buffers.                                                        |
+| Ctrl + w + v           | Split de Tela Vertical                                                                       |
+| Ctrl + w + s           | Split de Tela Horizontal                                                                     |
+| Ctrl + w + q           | Fecha o Buffer                                                                               |
+| Ctrl + w + (hjkl)      | Faz a movimentação entre os SPLITS.                                                          |
+| :Tabnew                | Criando uma Tab                                                                              |
+| :Tabs                  | Listando as Tabs                                                                             |
+| :set foldmethod=indent | Miniza Classes e Funções para "melhorar" a visualizaçao do código (za = Abre e fecha a FOLD) |
+| za                     | Abre e fecha a estrutura fold.                                                               |
+|                        |                                                                                              |
+|                        |                                                                                              |
+|                        |                                                                                              |
+
+
+
 **Manipulação:**
 
 | Comando          | Descrição                                                                                                                             |
@@ -94,7 +117,7 @@
 | .                | Quando vc faz qualquer alteração vc pode entrar no modo normal e digitar (.) ponto que a alteração sera repetida.                     |
 | ~                | Transforma o caracter MAIÚSCULO ou MINÚSCULO.                                                                                         |
 | \<num\>~         | Transforma os proximos X caracteres em MAIÚSCULOS ou MINÚSCULOS.                                                                      |
-|                  |                                                                                                                                       |
+| retab            | retabula todos os arquivos de acordo com sua configuração de TAB.                                                                     |
 |                  |                                                                                                                                       |
 |                  |                                                                                                                                       |
 |                  |                                                                                                                                       |
