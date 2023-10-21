@@ -1,7 +1,5 @@
 # Comandos Neovim
 
-
-
 **Criação de Linha:**
 
 | Comando  | Descrição                   |
@@ -73,65 +71,65 @@
 | :Tabs                  | Listando as Tabs                                                                             |
 | :set foldmethod=indent | Miniza Classes e Funções para "melhorar" a visualizaçao do código (za = Abre e fecha a FOLD) |
 | za                     | Abre e fecha a estrutura fold.                                                               |
+| zr                     | Abre todas as Estruturas  Fold                                                               |
+| zm                     | Fecha todas as Estrutura Fold                                                                |
 |                        |                                                                                              |
-|                        |                                                                                              |
-|                        |                                                                                              |
-
-
 
 **Manipulação:**
 
-| Comando          | Descrição                                                                                                                             |
-|:----------------:| ------------------------------------------------------------------------------------------------------------------------------------- |
-| s                | Exclui o caracter que o cursor esta em cima e entra no modo de inserção.                                                              |
-| S                | Exclui a linha que o cursor esta e entra no modo de inserção.                                                                         |
-| C                | Exclui o resto da linha a frente do curso e entra no modo de inserção.                                                                |
-| dw               | Apaga Palavra.                                                                                                                        |
-| \<num\>dw        | Apaga x palavras a frente do cursor.                                                                                                  |
-| di (             | Deleta tudo que esta dentro dos Parenteses.                                                                                           |
-| cit              | Apaga o conteudo da TAG HTML e entra no modo de inserção dentro da TAG HTML.                                                          |
-| cat              | Apaga a TAG HTML inteira.                                                                                                             |
-| dt\<carater\>    | Apaga tudo até o caracter especificado.                                                                                               |
-| r                | replace de caracter.                                                                                                                  |
-| R                | Entra no modo de REPLACE de catater para toda a linha a frente do Cursor.                                                             |
-| yy               | Copia a linha inteira.                                                                                                                |
-| Y                | Copia o resto da linha inteira depois do cursor.                                                                                      |
-| p                | Cola após o cursor.                                                                                                                   |
-| P                | Cola antes do cursor.                                                                                                                |
-| u                | desfaz alterações.                                                                                                                    |
-| J                | agrupa uma função mutilinha em uma unica linha.                                                                                       |
-| x                | Deleta 1 caracter.                                                                                                                    |
-| \<num\>x         | Deleta x caracteres a frente do cursor.                                                                                               |
-| X                | Deleta 1 caracter anterior ao cursor.                                                                                                 |
-| \<num\>X         | Deleta x caracteres anteriores ao cursor.                                                                                             |
-| n                | Proxima ocorrencia encontrada depois de fazer a BUSCA                                                                                 |
-| N                | Ocorrencia anterior depois de fazer a BUSCA.                                                                                          |
-| \#               | Realiza uma busca anterior da palavra que o cursor esta em cima.                                                                      |
-| \*               | Realiza uma busca a frente da palavra que o cursor esta em cima.                                                                      |
-| Ctrl + a         | Incremento numerico.                                                                                                                  |
-| \<num\> Ctrl + a | incrementa o numero pelo número especificado.                                                                                         |
-| Ctrl + i         | Decremento numérico.                                                                                                                  |
-| \<num\> Ctrl + i | Decrementa o numero pelo número especificado.                                                                                         |
-| Ctrl x + Ctrl n  | Autocompleta palavras de acordo com o arquivo que esta aberto.                                                                        |
-| Ctrl x + Ctrl l  | Mostra todas as incidencia de uma função e completa a linha inteira. (segurar o control e apertar o L para selecionar a que vc quer). |
-| .                | Quando vc faz qualquer alteração vc pode entrar no modo normal e digitar (.) ponto que a alteração sera repetida.                     |
-| ~                | Transforma o caracter MAIÚSCULO ou MINÚSCULO.                                                                                         |
-| \<num\>~         | Transforma os proximos X caracteres em MAIÚSCULOS ou MINÚSCULOS.                                                                      |
-| retab            | retabula todos os arquivos de acordo com sua configuração de TAB.                                                                     |
-|                  |                                                                                                                                       |
-|                  |                                                                                                                                       |
-|                  |                                                                                                                                       |
+| Comando             | Descrição                                                                                                                             |
+|:-------------------:| ------------------------------------------------------------------------------------------------------------------------------------- |
+| s                   | Exclui o caracter que o cursor esta em cima e entra no modo de inserção.                                                              |
+| S                   | Exclui a linha que o cursor esta e entra no modo de inserção.                                                                         |
+| C                   | Exclui o resto da linha a frente do curso e entra no modo de inserção.                                                                |
+| dw                  | Apaga Palavra.                                                                                                                        |
+| \<num\>dw           | Apaga x palavras a frente do cursor.                                                                                                  |
+| di (                | Deleta tudo que esta dentro dos Parenteses.                                                                                           |
+| cit                 | Apaga o conteudo da TAG HTML e entra no modo de inserção dentro da TAG HTML.                                                          |
+| cat                 | Apaga a TAG HTML inteira.                                                                                                             |
+| dt\<carater\>       | Apaga tudo até o caracter especificado.                                                                                               |
+| r                   | replace de caracter.                                                                                                                  |
+| R                   | Entra no modo de REPLACE de catater para toda a linha a frente do Cursor.                                                             |
+| yy                  | Copia a linha inteira.                                                                                                                |
+| Y                   | Copia o resto da linha inteira depois do cursor.                                                                                      |
+| p                   | Cola após o cursor.                                                                                                                   |
+| P                   | Cola antes do cursor.                                                                                                                 |
+| u                   | desfaz alterações.                                                                                                                    |
+| J                   | agrupa uma função mutilinha em uma unica linha.                                                                                       |
+| x                   | Deleta 1 caracter.                                                                                                                    |
+| \<num\>x            | Deleta x caracteres a frente do cursor.                                                                                               |
+| X                   | Deleta 1 caracter anterior ao cursor.                                                                                                 |
+| \<num\>X            | Deleta x caracteres anteriores ao cursor.                                                                                             |
+| n                   | Proxima ocorrencia encontrada depois de fazer a BUSCA                                                                                 |
+| N                   | Ocorrencia anterior depois de fazer a BUSCA.                                                                                          |
+| \#                  | Realiza uma busca anterior da palavra que o cursor esta em cima.                                                                      |
+| \*                  | Realiza uma busca a frente da palavra que o cursor esta em cima.                                                                      |
+| Ctrl + a            | Incremento numerico.                                                                                                                  |
+| \<num\> Ctrl + a    | incrementa o numero pelo número especificado.                                                                                         |
+| Ctrl + i            | Decremento numérico.                                                                                                                  |
+| \<num\> Ctrl + i    | Decrementa o numero pelo número especificado.                                                                                         |
+| Ctrl x + Ctrl n     | Autocompleta palavras de acordo com o arquivo que esta aberto.                                                                        |
+| Ctrl x + Ctrl l     | Mostra todas as incidencia de uma função e completa a linha inteira. (segurar o control e apertar o L para selecionar a que vc quer). |
+| .                   | Quando vc faz qualquer alteração vc pode entrar no modo normal e digitar (.) ponto que a alteração sera repetida.                     |
+| ~                   | Transforma o caracter MAIÚSCULO ou MINÚSCULO.                                                                                         |
+| \<num\>~            | Transforma os proximos X caracteres em MAIÚSCULOS ou MINÚSCULOS.                                                                      |
+| retab               | retabula todos os arquivos de acordo com sua configuração de TAB.                                                                     |
+| :g/\<palavra\>/d    | Deleta a linha que possui a palabra procurada.                                                                                        |
+| :normal + comandos  | Faz o comando como se fosse no modo normal em 1 linha.                                                                                |
+| :%normal + comandos | Faz o comando no modo normal no arquivo inteiro.                                                                                      |
+|                     |                                                                                                                                       |
+| $                   |                                                                                                                                       |
 
 **Macro(passo a passo):**
 
-| Comando                 | Descrição                                                    |
-|:-----------------------:| ------------------------------------------------------------ |
-| q                       | Começa a criar a macro.                                      |
-| a                       | Nomeia a macro, pode ser qualquer letra, no caso aqui é "a". |
-| \<comandos\>            | Faça o que a macro tem que fazer.                            |
-| q                       | Grave a macro.                                               |
-| @\<nome da macro\>      | Executa a macro.                                             |
-| <num>@\<nome da macro\> | Executa a macro X vezes.                                     |
+| Comando                   | Descrição                                                    |
+|:-------------------------:| ------------------------------------------------------------ |
+| q                         | Começa a criar a macro.                                      |
+| a                         | Nomeia a macro, pode ser qualquer letra, no caso aqui é "a". |
+| \<comandos\>              | Faça o que a macro tem que fazer.                            |
+| q                         | Grave a macro.                                               |
+| @\<nome da macro\>        | Executa a macro.                                             |
+| \<num\>@\<nome da macro\> | Executa a macro X vezes.                                     |
 
 **Dicionário:**
 
@@ -150,4 +148,12 @@
 | V        | Entra no modo de seleção de Linhas.   |
 | Ctrl + V | Entra no modo de seleção em Bloco.    |
 
+**Integração com Bash:**
 
+| Comando          | Descrição                                                 |
+| ---------------- | --------------------------------------------------------- |
+| :r!sudo ifconfig | Pega o resultado do comando ifconfig e coloca no arquivo. |
+| :!sudo infconfig | Só mostra a saida do comando mas não coloca no arquivo.   |
+|                  |                                                           |
+|                  |                                                           |
+|                  |                                                           |
