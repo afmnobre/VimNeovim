@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Atalhos VIM</title>
+  <title>Atalhos Vim - Para Decorar</title>
   <style>
   @font-face {
   font-family: octicons-link;
@@ -1504,12 +1504,12 @@ pre[class*="language-"] {
 <td>Abre e fecha a estrutura fold.</td>
 </tr>
 <tr>
-<td></td>
-<td></td>
+<td>zr</td>
+<td>Abre todas as Estruturas&nbsp; Fold</td>
 </tr>
 <tr>
-<td></td>
-<td></td>
+<td>zm</td>
+<td>Fecha todas as Estrutura Fold</td>
 </tr>
 <tr>
 <td></td>
@@ -1665,15 +1665,23 @@ pre[class*="language-"] {
 <td>retabula todos os arquivos de acordo com sua configuração de TAB.</td>
 </tr>
 <tr>
-<td align="center"></td>
-<td></td>
+<td align="center">:g/&lt;palavra&gt;/d</td>
+<td>Deleta a linha que possui a palabra procurada.</td>
+</tr>
+<tr>
+<td align="center">:normal + comandos</td>
+<td>Faz o comando como se fosse no modo normal em 1 linha.</td>
+</tr>
+<tr>
+<td align="center">:%normal + comandos</td>
+<td>Faz o comando no modo normal no arquivo inteiro.</td>
 </tr>
 <tr>
 <td align="center"></td>
 <td></td>
 </tr>
 <tr>
-<td align="center"></td>
+<td align="center">$</td>
 <td></td>
 </tr>
 </tbody></table>
@@ -1706,7 +1714,7 @@ pre[class*="language-"] {
 <td>Executa a macro.</td>
 </tr>
 <tr>
-<td align="center">@&lt;nome da macro&gt;</td>
+<td align="center">&lt;num&gt;@&lt;nome da macro&gt;</td>
 <td>Executa a macro X vezes.</td>
 </tr>
 </tbody></table>
@@ -1754,6 +1762,35 @@ pre[class*="language-"] {
 <tr>
 <td align="center">Ctrl + V</td>
 <td>Entra no modo de seleção em Bloco.</td>
+</tr>
+</tbody></table>
+<p><strong>Integração com Bash:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Comando</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>:r!sudo ifconfig</td>
+<td>Pega o resultado do comando ifconfig e coloca no arquivo.</td>
+</tr>
+<tr>
+<td>:!sudo infconfig</td>
+<td>Só mostra a saida do comando mas não coloca no arquivo.</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
 </tr>
 </tbody></table>
 </article>
